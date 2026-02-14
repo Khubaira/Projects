@@ -8,13 +8,15 @@
   
 
 }
+body{
+    background-color: #fcf5eb;
+}
 
 /*Navbar Stats*/
 
 .container{
-    width:100vw;
-    min-height: 100vh;
-    background-color: #fcf5eb;
+    width:100%;
+    height: 100vh;
     padding: 0 40px;
 }
 
@@ -44,7 +46,7 @@
 .nav-items > p{
     cursor: pointer;
 }
-.navbar > button{
+.navbar > button, .btn{
     display: flex;
     padding: 8px 18px;
     font-size: 14px;
@@ -123,3 +125,220 @@
 
 
 /*Hero Section*/
+.firstSection{
+padding-top: 40px;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+
+.div1{
+    background-image: url(./whatsApp/MaaBeti.png);
+    height:80% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 120px;
+    
+}
+.firstSection > p{
+    text-align: end;
+    font-size: 12px;
+    opacity: 0.8;
+    padding-top: 15px;
+}
+.right{
+    position: relative;
+    width: 500px;
+    height: 100%;
+    margin-top: 15%;
+    left: 120px;
+    
+}
+.right img:nth-child(1){
+    
+ width: 400px;
+animation: gm 0.7s ease-in-out;
+}
+@keyframes gm {
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+}
+
+
+.right img:nth-child(2){
+ position: absolute;
+    left :12px;
+    top: 16px;
+    width: 350px;
+    animation: heart 1.3s ease-in-out;
+}
+
+@keyframes heart {
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+.right img:nth-child(3){
+    margin-left: 20px;
+    width: 360px;
+     animation: tea 1.9s ease-in-out;
+}
+
+@keyframes tea {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    60%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+
+.right img:nth-child(4){
+     width: 360px;
+      
+     animation: voice 2.5s ease-in-out;
+}
+
+@keyframes voice {
+    0%{
+        opacity: 0;
+        transform: translateY(70px);
+    }
+
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+.right img:nth-child(5){
+    width: 360px;
+    animation: emo 3.3s ease-in-out;
+}
+
+@keyframes emo {
+    0%{
+        opacity: 0;
+        transform: translateY(70px);
+    }
+
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.right img:nth-child(6){
+    position: absolute;
+    top:385px;
+    left:1px;
+    width: 450px;
+    animation: emotionalEmoji 4.1s ease-in-out ;
+}
+
+@keyframes emotionalEmoji {
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+.right img:nth-child(7){
+    padding-top: 30px;
+    width: 400px;
+    animation: trip 4.8s ease-in-out;
+}
+
+
+@keyframes trip {
+    0%{
+        opacity: 0;
+        transform: translateY(70px);
+    }
+
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    color: white;
+    position: relative;
+    left: 0px;
+    top: 53px;
+    
+}
+.leftmsg >h1{
+    font-size: 78px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    
+}
+.btn{
+    width: 150px;
+}
+
+.leftmsg >p{
+    font-size: 18px;
+    margin: 18px 0;
+}
+    
+
+
+
+
+
+
+
