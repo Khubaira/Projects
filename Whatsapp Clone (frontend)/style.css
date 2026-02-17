@@ -501,7 +501,162 @@ animation: gm 0.7s ease-in-out;
     height: 820px;
 }
 
+.footer{
+    color: white;
+    height: 530px;
+    background-color: #111b21;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-left: -41px;
+    padding-right: 20px;
+}
+
+.upper{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+    margin-bottom: 20px;
+}
    
+.lower{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.up1{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.up2,.up3,.up4,.up5{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top:105px;
+    gap: 34px;
+    
+}
+
+li {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.up2 > p,
+.up3 > p,
+.up4 > p,
+.up5 > p {
+    font-size: 12px;
+    opacity: 0.8;
+}
+.fo{
+    height: 50px;
+    cursor: pointer;
+}
+.up1>img{
+    margin-top: 20px;
+}
+
+
+hr{
+    color: white;
+    width: 55%;
+    transform: scaleY(0.5);
+    margin-bottom: 10px;
+}
+
+.lower >p{
+    font-size: 12px;
+}
+.fimg{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fimg > img{
+    height: 30px;
+    width: 30 px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+   
+}
+
+.fimg > img:hover{
+    transform: scale(1.2);
+}
+
+
+.footer-select {
+    position: relative;
+    width: 160px;
+}
+
+
+.footer-lang {
+    width: 100%;
+    padding: 12px 45px 12px 40px;
+
+    border-radius: 40px;
+    border: 2px solid white;
+
+    background-color: #111b21;   
+    color: white;
+
+    font-size: 15px;
+    cursor: pointer;
+
+    outline: none;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+.footer-lang option {
+    background-color: #111b21;
+    color: white;
+}
+
+
+
+.footer-select::after {
+    content: "⌄";
+    position: absolute;
+
+    right: 45px;
+    top: 40%;
+    transform: translateY(-50%);
+
+    color: white;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+
+
+
 
     
     
